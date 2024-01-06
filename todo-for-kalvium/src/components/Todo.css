@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+*{
+    font-family: 'Jura', sans-serif;
+}
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.input-container {
+    width: 20vw;
+}
+
+input[type='text'] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #3498db;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.add-btn {
+    background-color: #27ae60;
+    color: white;
+}
+
+button.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button.update-btn {
+    background-color: #f39c12;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Colors and styles can be adjusted as needed */
